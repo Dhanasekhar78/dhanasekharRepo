@@ -34,13 +34,13 @@ public class CloudVendorServiceImpl implements CloudVendorService {
     }
 
     @Override
-    public String deleteCloudVendor(String vendorId) {
+    public String deleteCloudVendor(Integer vendorId) {
         cloudVendorRepository.deleteById(vendorId);
         return "Success";
     }
 
     @Override
-    public CloudVendor getCloudVendor(String vendorId) {
+    public CloudVendor getCloudVendor(Integer vendorId) {
 
         return cloudVendorRepository.findById(vendorId).get();
     }
