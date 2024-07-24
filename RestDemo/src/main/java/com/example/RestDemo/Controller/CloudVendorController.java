@@ -23,7 +23,7 @@ public class CloudVendorController {
 
 
     @GetMapping("{vendorId}")
-    public CloudVendor getCloudVendor(@PathVariable("vendorId") String vendorId) {
+    public CloudVendor getCloudVendor(@PathVariable("vendorId") Integer vendorId) {
 
         return cloudVendorService.getCloudVendor(vendorId);
 
@@ -49,7 +49,7 @@ public class CloudVendorController {
     }
 
     @DeleteMapping("{vendorId}")
-    public String deleteCloudVendor(@PathVariable("vendorId") String vendorId){
+    public String deleteCloudVendor(@PathVariable("vendorId") Integer vendorId){
 
         cloudVendorService.deleteCloudVendor(vendorId);
 
