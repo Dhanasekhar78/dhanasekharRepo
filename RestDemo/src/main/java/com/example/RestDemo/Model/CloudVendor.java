@@ -1,5 +1,4 @@
-package com.example.RestDemo.Model;
-
+package com.example.RestDemo.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

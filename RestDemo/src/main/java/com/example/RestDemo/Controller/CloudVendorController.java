@@ -1,7 +1,7 @@
-package com.example.RestDemo.Controller;
+package com.example.RestDemo.controller;
 
 
-import com.example.RestDemo.Model.CloudVendor;
+import com.example.RestDemo.model.CloudVendor;
 import com.example.RestDemo.Service.CloudVendorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

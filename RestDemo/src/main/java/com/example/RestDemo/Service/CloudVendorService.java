@@ -1,6 +1,6 @@
 package com.example.RestDemo.Service;
 
-import com.example.RestDemo.Model.CloudVendor;
+import com.example.RestDemo.model.CloudVendor;
 
 import java.util.List;
 
